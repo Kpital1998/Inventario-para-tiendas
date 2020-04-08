@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1050vh;
+}
+
+#main .titulos{
+    text-align: center;
+    margin: auto;
+    background: #5858FA;
+}
+
+#main .titulos ul li{
+    display: inline-block;
+    padding: 20px 6%;
+}
+
+#main .titulos img:hover{
+    cursor: pointer;
+    transition: .4s;
+    transform: rotate(360deg);
+}
+
+#main .lista-opciones{
+    background: #819FF7;
+    width: 120px;
+    height: 999px;
+    float: left;
+    transition: .50s;
+}
+
+#main .lista-opciones button{
+    margin-left: 14px;
+    padding: 10px 30px;
+    margin-top: 24px;
+    border-radius: 10px;
+    border: 0;
+    background: transparent;
+    transition: .4s;
+}
+
+#main .lista-opciones button:hover{
+    cursor: pointer;
+    background: #fff;
+    transform: translateX(10px);
+}
+
+#main #menu2{
+    width: 200px;
+}
+
+#main #menu2 img[src="imagen/menu (2).png"]{
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+
+#main #menu2 img{
+    margin-right: 5px;
+}
+
+/*-----------------------------------------------*/
+
+#main2 ul li{
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: 80px;
+    background: #F3E2A9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#main2 ul img{
+    margin-right: 5px;
+}
+
+#main2 button{
+    float: right; 
+    margin-right: 15%;
+    margin-top: 20px;
+    border-radius: 17px;
+    border: 0;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#main2 table{
+    margin-top: 30px;
+}
+
+#main2 table thead tr td{
+    padding: 10px;
+    background: #848484;
+    color: aliceblue;
+}
+
+#main2 table tbody tr td{
+    padding: 4px 8px;
+}
+
+#main2 fieldset{
+    width: 40px;
+    padding: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 20%;
+}
+
+#main2 fieldset ol{
+    margin-top: -40%;
+}
+
+#main2 fieldset ol li{
+    padding: 2px 0px;
+    list-style: none;
+}
+
+#main2 fieldset ol li:hover{
+    background: #5858FA;
+}
+
+#main2 fieldset ol li a{
+    text-decoration-style: none;
+}
+
+#main2 .formulario{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+input[value="Modificar"]{
+    background: #CED8F6;
+    color: beige;
+    border: 0px;
+    transition: .4s;
+    padding: 6px;
+}
+
+input[value="Modificar"]:hover{
+    background: #2E2EFE;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+ input[value="Eliminar"]{
+    float: right;
+    margin-top: 0px;
+    background: #F7819F;
+    color: beige;
+    padding: 6px;
+    border: 0;
+    transition: .4s;
+    margin-right: 0px;
+}
+
+input[value="Eliminar"]:hover{
+    background: #DF013A;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/*-----------------------------------*/
+
+
+#modalSalir{
+    margin: auto;
+    margin-left: 35%;
+}
+
+#modalSalir fieldset{
+    width: 200px;
+    padding: 50px;
+    position: absolute;
+    background: #FAFAFA;
+}
+
+#modalSalir input{
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#modalSalir input[value="Cancelar"]{
+    background: red;
+    color: white;
+    border: 0;
+}
+
+#modalSalir input[value="Salir"]{
+    background: blue;
+    color: white;
+    border: 0;
+}
+
+/*---------------------------------*/
+.modal{
+    margin-top: -10%;
+}
+
+.modal fieldset{
+    width: 70px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 18px;
+    position: absolute;
+    margin-left: 30%;
+    background: #FAFAFA;
+}
+
+.modal legend{
+    float: right;
+}
+
+.modal legend button{
+    padding: 12px;
+    border-radius: 30px;
+    border: 0;
+    transition: .4s;
+}
+
+.modal legend button:hover{
+    background: gray;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.modal fieldset input[type="text"]{
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-size: 14px;
+}
+
+

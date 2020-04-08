@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#BDBDBD;
+}
+
+.container{
+    max-width: 1050vh;
+}
+
+#login fieldset{
+    width: 120px;
+    padding: 40px;
+    margin-top: 60px;
+    background: #F2F2F2;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#login legend img{
+    border-radius: 30px;
+    padding: 4px;
+}
+
+#login input[type="text"],input[type="password"]{
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#login input[type="button"]{
+    padding: 10px;
+    background: #8181F7;
+    color: wheat;
+    border: 0;
+    border-radius: 6px;
+    transition: .6s;
+    width: 170px;
+    font-size: 16px;
+}
+
+#login input[type="button"]:hover{
+    background: #0000FF;
+    cursor: pointer;
+    transition: .6s;
+}
+
+#login input[type="submit"]{
+    padding: 10px;
+    background: #8181F7;
+    color: wheat;
+    border: 0;
+    border-radius: 6px;
+    transition: .6s;
+    width: 170px;
+    font-size: 16px;
+}
+
+#login input[type="submit"]:hover{
+    background: #0000FF;
+    cursor: pointer;
+    transition: .6s;
+}
+
+/*---------------------------------------------------------*/
+
+#registro fieldset{
+    width: 120px;
+    padding: 50px;
+    margin-top: 40px;
+    background: #F2F2F2;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#registro legend img{
+    border-radius: 30px;
+    padding: 4px;
+}
+
+#registro input[type="text"],input[type="password"]{
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#registro p{
+    color: orange;
+    margin-left: -20px;
+}
+
+#registro input[type="button"]{
+    padding: 10px;
+    background: #8181F7;
+    color: wheat;
+    border: 0;
+    border-radius: 6px;
+    transition: .6s;
+    width: 170px;
+    font-size: 16px;
+}
+
+#registro input[type="button"]:hover{
+    background: #0000FF;
+    cursor: pointer;
+    transition: .6s;
+}
+
+#registro input[type="submit"]{
+    padding: 10px;
+    background: #8181F7;
+    color: wheat;
+    border: 0;
+    border-radius: 6px;
+    transition: .6s;
+    width: 170px;
+    font-size: 16px;
+}
+
+#registro input[type="submit"]:hover{
+    background: #0000FF;
+    cursor: pointer;
+    transition: .6s;
+}
